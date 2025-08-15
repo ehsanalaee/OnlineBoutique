@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "T7NJSMnV6am7pIeC3QpGHhPMITIcEPVfspBU1lfiwJlepYNmiYyOltSVrDZIsfrzebpcLHPtYVnm/qe/4ZEUuw==",
+  "dgSpecHash": "HPuyFCIU8iU=",
   "success": true,
-  "projectFilePath": "G:\\To The Purpose\\Real projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Amin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Amin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

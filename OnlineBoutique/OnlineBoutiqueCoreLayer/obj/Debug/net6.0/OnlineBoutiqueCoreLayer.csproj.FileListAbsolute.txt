@@ -1,0 +1,13 @@
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\bin\Debug\net6.0\OnlineBoutiqueCoreLayer.deps.json
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\bin\Debug\net6.0\OnlineBoutiqueCoreLayer.dll
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\bin\Debug\net6.0\OnlineBoutiqueCoreLayer.pdb
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.csproj.AssemblyReference.cache
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.AssemblyInfoInputs.cache
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.AssemblyInfo.cs
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.csproj.CoreCompileInputs.cache
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.sourcelink.json
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.dll
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\refint\OnlineBoutiqueCoreLayer.dll
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.pdb
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\ref\OnlineBoutiqueCoreLayer.dll

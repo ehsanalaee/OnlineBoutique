@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alaei\\.nuget\\packages\\": {},
+    "C:\\Users\\Amin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\To The Purpose\\Real projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
+      "projectUniqueName": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
       "projectName": "OnlineBoutiqueCoreLayer",
-      "projectPath": "G:\\To The Purpose\\Real projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
-      "packagesPath": "C:\\Users\\Alaei\\.nuget\\packages\\",
-      "outputPath": "G:\\To The Purpose\\Real projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\obj\\",
+      "projectPath": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj",
+      "packagesPath": "C:\\Users\\Amin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +46,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0": {
@@ -56,16 +63,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
