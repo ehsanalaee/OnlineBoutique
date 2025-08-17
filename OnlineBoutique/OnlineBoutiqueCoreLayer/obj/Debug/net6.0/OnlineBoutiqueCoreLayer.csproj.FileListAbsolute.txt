@@ -11,3 +11,6 @@ D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6
 D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\refint\OnlineBoutiqueCoreLayer.dll
 D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBoutiqueCoreLayer.pdb
 D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\ref\OnlineBoutiqueCoreLayer.dll
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\bin\Debug\net6.0\OnlineBoutiqueDataLayer.dll
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\bin\Debug\net6.0\OnlineBoutiqueDataLayer.pdb
+D:\Projects\OnlineBoutique\OnlineBoutique\OnlineBoutiqueCoreLayer\obj\Debug\net6.0\OnlineBo.86118095.Up2Date

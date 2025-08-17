@@ -488,6 +488,9 @@
         }
       },
       "OnlineBoutiqueCoreLayer/1.0.0": {
+        "dependencies": {
+          "OnlineBoutiqueDataLayer": "1.0.0"
+        },
         "runtime": {
           "OnlineBoutiqueCoreLayer.dll": {
             "assemblyVersion": "1.0.0.0",

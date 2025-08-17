@@ -21,6 +21,7 @@ namespace OnlineBoutiqueDataLayer.Entities
         public string ImageUrl{ get; set; }
 
         [ForeignKey("CategoryId")]
-        public ICollection<Category> Categories { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }
