@@ -9,6 +9,7 @@ namespace OnlineBoutiqueCoreLayer.Services
 {
     public interface ICategoryService
     {
+        Task<IEnumerable<Category>> GetAllCategoriesAndChildrenAsync();
         Task<IEnumerable<Category>> GetAllCategoriesAsync();
         Task<Category> GetCategoryByIdAsync(int id);
         Task<IEnumerable<Category>> GetChildCategoriesAsync(int parentId);

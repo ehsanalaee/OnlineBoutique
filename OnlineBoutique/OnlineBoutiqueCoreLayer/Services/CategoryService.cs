@@ -15,7 +15,20 @@ namespace OnlineBoutiqueCoreLayer.Services
             _context = context;
             _logger = logger;
         }
-
+        public async Task<IEnumerable<Category>> GetAllCategoriesAndChildrenAsync()
+        {
+            try
+            {
+                return await _context.Categories
+                    .OrderBy(c => c.Name)
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while getting all categories");
+                throw;
+            }
+        }
         public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
         {
             try

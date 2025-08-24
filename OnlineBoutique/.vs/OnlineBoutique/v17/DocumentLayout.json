@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FE473D4-7185-42D0-A5E8-8ECDA5FCE58F}|OnlineBoutiqueDataLayer\\OnlineBoutiqueDataLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquedatalayer\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FE473D4-7185-42D0-A5E8-8ECDA5FCE58F}|OnlineBoutiqueDataLayer\\OnlineBoutiqueDataLayer.csproj|solutionrelative:onlineboutiquedatalayer\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FE473D4-7185-42D0-A5E8-8ECDA5FCE58F}|OnlineBoutiqueDataLayer\\OnlineBoutiqueDataLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquedatalayer\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FE473D4-7185-42D0-A5E8-8ECDA5FCE58F}|OnlineBoutiqueDataLayer\\OnlineBoutiqueDataLayer.csproj|solutionrelative:onlineboutiquedatalayer\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquecorelayer\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|solutionrelative:onlineboutiquecorelayer\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquecorelayer\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|solutionrelative:onlineboutiquecorelayer\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250817045217_edit-items.cs",
-              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs",
-              "RelativeDocumentMoniker": "OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs",
-              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs",
-              "RelativeToolTip": "OnlineBoutiqueDataLayer\\Migrations\\20250817045217_edit-items.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:52:17.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "OnlineBoutiqueDataLayer\\Context\\AppDbContext.cs",
-              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "OnlineBoutiqueDataLayer\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:51:46.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Item.cs",
-              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Entities\\Item.cs",
-              "RelativeDocumentMoniker": "OnlineBoutiqueDataLayer\\Entities\\Item.cs",
-              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueDataLayer\\Entities\\Item.cs",
-              "RelativeToolTip": "OnlineBoutiqueDataLayer\\Entities\\Item.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:45:47.388Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IItemService.cs",
-              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\IItemService.cs",
-              "RelativeDocumentMoniker": "OnlineBoutiqueCoreLayer\\Services\\IItemService.cs",
-              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\IItemService.cs",
-              "RelativeToolTip": "OnlineBoutiqueCoreLayer\\Services\\IItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:45:33.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "OnlineBoutiqueCoreLayer\\Services\\ICategoryService.cs",
-              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\ICategoryService.cs",
-              "RelativeToolTip": "OnlineBoutiqueCoreLayer\\Services\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T04:30:16.651Z",
-              "EditorCaption": ""
             }
           ]
         }
