@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using OnlineBoutiqueCoreLayer.Services;
 using OnlineBoutiqueDataLayer.Context;
 using OnlineBoutiqueDataLayer.Entities;
 
@@ -12,31 +13,33 @@ namespace OnlineBoutiqueAdmin.Controllers
 {
     public class ItemsController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly IItemService _service;
+        private readonly ICategoryService _categoryService;
 
-        public ItemsController(AppDbContext context)
+
+        public ItemsController(ItemService service, CategoryService categoryService)
         {
-            _context = context;
+            _service = service;
+            _categoryService = categoryService;
         }
+
 
         // GET: Items
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Items.Include(i => i.Category);
-            return View(await appDbContext.ToListAsync());
+            var appDbContext = _service.GetAllItemsAsync();
+            return View(await appDbContext);
         }
 
         // GET: Items/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Items == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var item = await _context.Items
-                .Include(i => i.Category)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var item = await _service.GetItemByIdAsync(id.Value);
             if (item == null)
             {
                 return NotFound();
@@ -46,9 +49,10 @@ namespace OnlineBoutiqueAdmin.Controllers
         }
 
         // GET: Items/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Description");
+            var categories = await _categoryService.GetAllCategoriesAndChildrenAsync();
+            ViewData["CategoryId"] = new SelectList(categories, "Id", "Name");
             return View();
         }
 
@@ -59,30 +63,32 @@ namespace OnlineBoutiqueAdmin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,QuantityInStock,Size,Color,ImageUrl,CategoryId")] Item item)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(item);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Description", item.CategoryId);
-            return View(item);
+            //if (ModelState.IsValid)
+            //{
+                
+            //}
+            await _service.CreateItemAsync(item);
+            return RedirectToAction(nameof(Index));
+            //var categories = await _categoryService.GetAllCategoriesAndChildrenAsync();
+            //ViewData["CategoryId"] = new SelectList(categories, "Id", "Name", item.CategoryId);
+            //return View(item);
         }
 
         // GET: Items/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Items == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var item = await _context.Items.FindAsync(id);
+            var item = await _service.GetItemByIdAsync(id.Value);
             if (item == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Description", item.CategoryId);
+            var categories = await _categoryService.GetAllCategoriesAndChildrenAsync();
+            ViewData["CategoryId"] = new SelectList(categories, "Id", "Name", item.CategoryId);
             return View(item);
         }
 
@@ -98,41 +104,40 @@ namespace OnlineBoutiqueAdmin.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
+            //{
+                
+            //}
+            try
             {
-                try
-                {
-                    _context.Update(item);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ItemExists(item.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                await _service.UpdateItemAsync(id, item);
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Description", item.CategoryId);
-            return View(item);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ItemExists(item.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return RedirectToAction(nameof(Index));
+            //var categories = await _categoryService.GetAllCategoriesAndChildrenAsync();
+            //ViewData["CategoryId"] = new SelectList(categories , "Id", "Name", item.CategoryId);
+            //return View(item);
         }
 
         // GET: Items/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Items == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var item = await _context.Items
-                .Include(i => i.Category)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var item = await _service.GetItemByIdAsync(id.Value);
             if (item == null)
             {
                 return NotFound();
@@ -146,23 +151,27 @@ namespace OnlineBoutiqueAdmin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Items == null)
-            {
-                return Problem("Entity set 'AppDbContext.Items'  is null.");
-            }
-            var item = await _context.Items.FindAsync(id);
+            var item = await _service.GetItemByIdAsync(id);
+
             if (item != null)
             {
-                _context.Items.Remove(item);
+                await _service.DeleteItemAsync(id);
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
         private bool ItemExists(int id)
         {
-          return (_context.Items?.Any(e => e.Id == id)).GetValueOrDefault();
+            var item = _service.GetItemByIdAsync(id);
+            if (item == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 }
