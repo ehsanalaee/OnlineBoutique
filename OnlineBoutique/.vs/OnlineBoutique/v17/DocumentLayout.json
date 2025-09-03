@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiqueadmin\\views\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|solutionrelative:onlineboutiqueadmin\\views\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiqueadmin\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|solutionrelative:onlineboutiqueadmin\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiqueadmin\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|solutionrelative:onlineboutiqueadmin\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiqueadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|solutionrelative:onlineboutiqueadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquecorelayer\\services\\file\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|solutionrelative:onlineboutiquecorelayer\\services\\file\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiqueadmin\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E93B45-463F-455A-8EFB-82E4DE90CDEE}|OnlineBoutiqueAdmin\\OnlineBoutiqueAdmin.csproj|solutionrelative:onlineboutiqueadmin\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|d:\\projects\\onlineboutique\\onlineboutique\\onlineboutiquecorelayer\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5A38DC-E58C-44E7-B743-052966091DC3}|OnlineBoutiqueCoreLayer\\OnlineBoutiqueCoreLayer.csproj|solutionrelative:onlineboutiquecorelayer\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Details.cshtml",
+              "RelativeDocumentMoniker": "OnlineBoutiqueAdmin\\Views\\Items\\Details.cshtml",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Details.cshtml",
+              "RelativeToolTip": "OnlineBoutiqueAdmin\\Views\\Items\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T23:32:27.16Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineBoutiqueAdmin\\appsettings.json",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\appsettings.json",
+              "RelativeToolTip": "OnlineBoutiqueAdmin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T23:30:12.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineBoutiqueAdmin\\Views\\Items\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "OnlineBoutiqueAdmin\\Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwD8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T23:26:24.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineBoutiqueAdmin\\Views\\Items\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Views\\Items\\Create.cshtml",
+              "RelativeToolTip": "OnlineBoutiqueAdmin\\Views\\Items\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwC4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T23:25:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\File\\IFileService.cs",
+              "RelativeDocumentMoniker": "OnlineBoutiqueCoreLayer\\Services\\File\\IFileService.cs",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Services\\File\\IFileService.cs",
+              "RelativeToolTip": "OnlineBoutiqueCoreLayer\\Services\\File\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T23:23:46.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Dtos\\ItemDto.cs",
+              "RelativeDocumentMoniker": "OnlineBoutiqueCoreLayer\\Dtos\\ItemDto.cs",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueCoreLayer\\Dtos\\ItemDto.cs",
+              "RelativeToolTip": "OnlineBoutiqueCoreLayer\\Dtos\\ItemDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T23:08:15.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "OnlineBoutiqueAdmin\\Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\Projects\\OnlineBoutique\\OnlineBoutique\\OnlineBoutiqueAdmin\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "OnlineBoutiqueAdmin\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAlwFUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T12:26:45.367Z",
+              "EditorCaption": ""
             }
           ]
         }

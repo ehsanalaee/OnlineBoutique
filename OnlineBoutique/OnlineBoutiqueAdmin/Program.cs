@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineBoutiqueCoreLayer.Services;
+using OnlineBoutiqueCoreLayer.Services.File;
 using OnlineBoutiqueDataLayer.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +14,8 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<IItemService, ItemService>();
 builder.Services.AddScoped<ItemService>();
-
-
+builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<FileService>();
 
 var app = builder.Build();
 

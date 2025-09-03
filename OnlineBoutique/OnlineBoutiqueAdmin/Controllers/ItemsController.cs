@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using OnlineBoutiqueCoreLayer.Dtos;
 using OnlineBoutiqueCoreLayer.Services;
+using OnlineBoutiqueCoreLayer.Services.File;
 using OnlineBoutiqueDataLayer.Context;
 using OnlineBoutiqueDataLayer.Entities;
 
@@ -15,12 +18,13 @@ namespace OnlineBoutiqueAdmin.Controllers
     {
         private readonly IItemService _service;
         private readonly ICategoryService _categoryService;
+        private readonly IFileService _fileService;
 
-
-        public ItemsController(ItemService service, CategoryService categoryService)
+        public ItemsController(ItemService service, CategoryService categoryService, FileService fileService)
         {
             _service = service;
             _categoryService = categoryService;
+            _fileService = fileService;
         }
 
 
@@ -61,12 +65,27 @@ namespace OnlineBoutiqueAdmin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,QuantityInStock,Size,Color,ImageUrl,CategoryId")] Item item)
+        public async Task<IActionResult> Create(ItemDto itemDto)
         {
             //if (ModelState.IsValid)
             //{
                 
             //}
+            var item = new Item { 
+                Id = itemDto.Id,
+                Name = itemDto.Name,
+                Description = itemDto.Description,
+                CategoryId = itemDto.CategoryId,
+                Size = itemDto.Size,
+                QuantityInStock = itemDto.QuantityInStock,
+                Color = itemDto.Color,
+                Price = itemDto.Price
+            };
+            
+            item.ImageUrl = await _fileService.SaveFileAsync(itemDto.Image);
+            
+
+
             await _service.CreateItemAsync(item);
             return RedirectToAction(nameof(Index));
             //var categories = await _categoryService.GetAllCategoriesAndChildrenAsync();
